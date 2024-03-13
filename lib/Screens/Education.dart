@@ -155,8 +155,8 @@ class _educationState extends State<education> {
                     showVideoProgressIndicator: true,
                     progressIndicatorColor: Colors.amber,
                     progressColors: ProgressBarColors(
-                      playedColor: Colors.amber,
-                      handleColor: Colors.amberAccent,
+                      playedColor: Colors.red,
+                      handleColor: Colors.orangeAccent,
                     ),
                   ),
                   builder: (context, player) {
